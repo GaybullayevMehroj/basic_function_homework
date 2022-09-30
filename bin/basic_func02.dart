@@ -2,7 +2,7 @@
 //Create function arguments a and b of type int. 
 //Returns the floor division of a and b.
 int divide(int a, int b) {
-    return a - b;
+    return b ~/ a;
 }
 void main() {
     print(divide(5,3));
