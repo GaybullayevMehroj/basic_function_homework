@@ -5,5 +5,5 @@ int divide(int a, int b) {
     return a ~/ b;
 }
 void main() {
-    print(divide(9,3));
+    print(divide(2,3));
 }
