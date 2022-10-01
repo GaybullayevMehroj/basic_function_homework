@@ -8,5 +8,5 @@ int func(int number){
     return answer;
 }
 void main() {
-    print(func(22));
+    print(func(7));
 }
