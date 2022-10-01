@@ -5,4 +5,13 @@
 //  Find the ‘number’ third digit and assign to x3.
 // Create a variable called ‘answer’ and assign it the sum of the three digits. 
 // return the sum of the digits.
-void main() {}
+int func(int number){
+    int x1 = number ~/ 100;
+    int x2 = (number ~/ 10)%10;
+    int x3 = number %10;
+    int answer = x1 + x2 + x3;
+    return answer;
+}
+void main() {
+    print(func(512));
+}
